@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     siteName: "Pooja Art & Craft",
     images: [
       {
-        url: "https://pooja-art-craft.vercel.app/images/handicraft/og.jpg",
+        url: "https://pooja-art-craft.vercel.app/images/og.jpg",
         width: 1200,
         height: 630,
         alt: "Pooja Art & Craft - Indian Handicraft Manufacturer",
