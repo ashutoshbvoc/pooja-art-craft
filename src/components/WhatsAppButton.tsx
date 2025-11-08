@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppButton() {
   const whatsappNumber = "+917062844125"; // apna WhatsApp number yaha daalo
-  const message = "Hello! I want to inquire about your services."; // default message
+  const message = "Hello! I want to inquire about your Handicraft Products."; // default message
 
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(
     /[^\d]/g,
