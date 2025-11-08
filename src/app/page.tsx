@@ -90,7 +90,7 @@ export default function Home() {
             Discover the best of Rajasthan's handicrafts and home decor, handcrafted to perfection by Pooja Art & Craft – where tradition meets elegance.
 
           </p>
-          <p className="text-base sm:text-lg md:text-xl text-gray-200 font-light leading-relaxed max-w-2xl animate-fadeIn delay-150">GSTIN: 07BFJPK7708E1ZE</p>
+          <p className="text-base sm:text-lg md:text-xl text-gray-200 font-light leading-relaxed max-w-2xl animate-fadeIn delay-150">GSTIN: 08JMQPS6920A1ZM</p>
 
           <div className="mt-10 w-full flex justify-center animate-fadeIn delay-300">
             <Link
