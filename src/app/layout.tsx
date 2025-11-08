@@ -24,49 +24,53 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Jiya Enterprises",
+  title: "Pooja Art & Craft",
   description:
-    "Transform your spaces with Jiya Enterprises. Luxury interior design services across India, including Residential, Office, and Boutique Hotel Interiors.",
+    "Pooja Art & Craft is one of India’s leading handicraft manufacturers, creating exquisite handmade wooden, metal, and decorative art pieces that reflect the beauty of Indian tradition and craftsmanship.",
   keywords: [
-    "Jiya Enterprises",
-    "Interior Design",
-    "Luxury Interiors",
+    "Pooja Art & Craft",
+    "Handicraft Manufacturer",
+    "Indian Handicrafts",
+    "Wooden Handicrafts",
+    "Metal Handicrafts",
     "Home Decor",
-    "Residential Interiors",
-    "Office Interiors",
-    "Hotel Interior Design",
-    "India",
-    "Bespoke Interiors",
-    "Modern Interior Design",
+    "Traditional Art",
+    "Handmade Products",
+    "Gift Items",
+    "Art and Craft",
+    "Decorative Items",
+    "Craft Exporter",
+    "Made in India",
   ],
   authors: [
-    { name: "Jiya Enterprises", url: "https://jiya-enterprises.vercel.app/" },
+    { name: "Pooja Art & Craft", url: "https://pooja-art-craft.vercel.app/" },
   ],
-  creator: "Jiya Enterprises",
-  publisher: "Jiya Enterprises",
-  metadataBase: new URL("https://jiya-enterprises.vercel.app/"), // canonical base URL
+  creator: "Pooja Art & Craft",
+  publisher: "Pooja Art & Craft",
+  metadataBase: new URL("https://pooja-art-craft.vercel.app/"), // canonical base URL
   alternates: {
-    canonical: "https://jiya-enterprises.vercel.app/",
+    canonical: "https://pooja-art-craft.vercel.app/",
   },
 
   openGraph: {
-    title: "Jiya Enterprises",
+    title: "Pooja Art & Craft - India’s Finest Handicraft Manufacturer",
     description:
-      "Transform your spaces with Jiya Enterprises. Luxury interior design services across India.",
-    url: "https://jiya-enterprises.vercel.app/",
-    siteName: "Jiya Enterprises",
+      "Discover premium handmade wooden, metal, and decorative art pieces crafted by skilled artisans at Pooja Art & Craft. Redefining traditional craftsmanship with modern elegance.",
+    url: "https://pooja-art-craft.vercel.app/",
+    siteName: "Pooja Art & Craft",
     images: [
       {
-        url: "https://jiya-enterprises.vercel.app/images/interior/og.jpg",
+        url: "https://pooja-art-craft.vercel.app/images/handicraft/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Jiya Enterprises - Luxury Interior Design",
+        alt: "Pooja Art & Craft - Indian Handicraft Manufacturer",
       },
     ],
     locale: "en_IN",
     type: "website",
   },
 };
+
 
 export default function RootLayout({
   children,
