@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     siteName: "Pooja Art & Craft",
     images: [
       {
-        url: "https://pooja-art-craft.vercel.app/images/og.jpg",
+        url: "https://pooja-art-craft.vercel.app/images/og.png",
         width: 1200,
         height: 630,
         alt: "Pooja Art & Craft - Indian Handicraft Manufacturer",
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     title: "Pooja Art & Craft | India’s Finest Handicraft Manufacturer",
     description:
       "Premium handmade Indian handicrafts — elegant wooden, metal, and decorative art crafted by skilled artisans.",
-    images: ["https://pooja-art-craft.vercel.app/images/og.jpg"],
+    images: ["https://pooja-art-craft.vercel.app/images/og.png"],
     creator: "@poojaartcraft", // optional if you have a Twitter handle
   },
 
