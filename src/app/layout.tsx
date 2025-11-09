@@ -25,13 +25,42 @@ const dancingScript = Dancing_Script({
 
 
 export const metadata: Metadata = {
-  title: "Pooja Art & Craft",
+  title: {
+    default: "Pooja Art & Craft | India’s Finest Handicraft Manufacturer",
+    template: "%s | Pooja Art & Craft",
+  },
   description:
-    "Pooja Art & Craft is one of India’s leading handicraft manufacturers...",
+    "Pooja Art & Craft is India’s leading handicraft manufacturer, creating premium handmade wooden, metal, and decorative art pieces that celebrate Indian tradition, craftsmanship, and design excellence.",
+  keywords: [
+    "Pooja Art & Craft",
+    "Handicraft Manufacturer",
+    "Indian Handicrafts",
+    "Wooden Handicrafts",
+    "Metal Handicrafts",
+    "Decorative Items",
+    "Home Decor",
+    "Traditional Art",
+    "Handmade Products",
+    "Gift Items",
+    "Art and Craft",
+    "Craft Exporter",
+    "Made in India",
+    "Luxury Handicrafts",
+    "Indian Artisan Work",
+  ],
+  authors: [{ name: "Pooja Art & Craft", url: "https://pooja-art-craft.vercel.app/" }],
+  creator: "Pooja Art & Craft",
+  publisher: "Pooja Art & Craft",
+
+  metadataBase: new URL("https://pooja-art-craft.vercel.app/"),
+  alternates: {
+    canonical: "https://pooja-art-craft.vercel.app/",
+  },
+
   openGraph: {
-    title: "Pooja Art & Craft - India’s Finest Handicraft Manufacturer",
+    title: "Pooja Art & Craft | India’s Finest Handicraft Manufacturer",
     description:
-      "Discover premium handmade wooden, metal, and decorative art pieces...",
+      "Discover handcrafted wooden, metal, and decorative art pieces from Pooja Art & Craft — where Indian tradition meets modern design. Proudly Made in India.",
     url: "https://pooja-art-craft.vercel.app/",
     siteName: "Pooja Art & Craft",
     images: [
@@ -40,20 +69,35 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "Pooja Art & Craft - Indian Handicraft Manufacturer",
+        type: "image/jpeg",
       },
     ],
     locale: "en_IN",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Pooja Art & Craft - India’s Finest Handicraft Manufacturer",
+    title: "Pooja Art & Craft | India’s Finest Handicraft Manufacturer",
     description:
-      "Premium handmade Indian handicrafts — wooden, metal, and decorative art pieces.",
+      "Premium handmade Indian handicrafts — elegant wooden, metal, and decorative art crafted by skilled artisans.",
     images: ["https://pooja-art-craft.vercel.app/images/og.jpg"],
+    creator: "@poojaartcraft", // optional if you have a Twitter handle
+  },
+
+  category: "Handicrafts",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
-
 
 
 export default function RootLayout({
