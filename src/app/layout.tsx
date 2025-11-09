@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     title: "Pooja Art & Craft - India’s Finest Handicraft Manufacturer",
     description:
       "Discover premium handmade wooden, metal, and decorative art pieces...",
-    url: "http://localhost:3000//",
+    url: "https://pooja-art-craft.vercel.app/",
     siteName: "Pooja Art & Craft",
     images: [
       {
-        url: "http://localhost:3000//images/og/og.jpg",
+        url: "https://pooja-art-craft.vercel.app/images/og.jpg",
         width: 1200,
         height: 630,
         alt: "Pooja Art & Craft - Indian Handicraft Manufacturer",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Pooja Art & Craft - India’s Finest Handicraft Manufacturer",
     description:
       "Premium handmade Indian handicrafts — wooden, metal, and decorative art pieces.",
-    images: ["http://localhost:3000//images/og/og.jpg"],
+    images: ["https://pooja-art-craft.vercel.app/images/og.jpg"],
   },
 };
 
